@@ -1,0 +1,179 @@
+
+/* Basic css */
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    padding: 20px 10%;
+}
+.mtb{
+    margin: 40px 0;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.Shop-btn{
+    color: #659E38;
+    font-size: 15px;
+    font-weight: 600;
+    border: 2px solid #659E38 !important;
+    padding: 10px 15px;
+    border-radius: 16px;
+    background: transparent;
+    cursor: pointer;
+}
+
+.Shop-btn:hover{
+    background-color: #659E38;
+    color: white;
+    transition: 0.5s all;
+}
+
+/* Navbar */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    padding: 20px;
+}
+.logo{ 
+    font-size: 24px;
+    font-weight: bold;
+    color: #659E38;
+}
+.links a{
+    text-decoration: none;
+    padding-right: 20px;
+    color: black;
+}
+.links a:hover{
+    color: #659E38;
+}
+
+/* Hero section */
+.Hero-section{
+    width: 1300px;
+    margin: 40px auto;
+    display: flex;
+}
+.hero-content{
+    width: 500px;
+    padding: 100px 0 ; 
+}
+.highlight{
+    color: #659E38;
+}
+.hero-img-section{
+    width:700px;
+}
+.img{
+    width: 100%;
+    border-radius: 16px;
+}
+.hero-content h1{
+    font-size: 40px;
+    font-weight: 800;
+    margin: 10px 0;
+}
+
+/* article */
+.cards{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 0;
+}
+.card{
+    width: 500px;
+    height: 260px;
+    border-radius: 16px;
+    background-color: #FAFAFA;
+    display: flex;
+}
+.card-h:hover{
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+.card-content{
+    padding-left: 20px;
+    line-height: 18px;
+}
+
+/* Popular-plants-section */
+
+.popular-card{
+    width: 300px;
+    height: 250px;
+    padding: 10px;
+    background-color: #FAFAFA;
+    flex-wrap: nowrap;
+}
+
+/* Solutions-section */
+.solutions{
+    width: 1300px;
+    display: flex;
+    gap: 20px;
+}
+.solutions-img img{
+    width:550px;
+    border-radius: 10% 50%;
+    margin-top: 40px;   
+}
+.solutions-content{
+    width: 600px;
+    background-color: #FAFAFA;
+    padding: 20px;
+    border-radius: 16px;   
+}
+.desc{
+    margin-top: -20px;
+}
+
+/* Footer section */
+footer{
+    background-color: black;
+    color: white;
+    padding: 20px 10%;
+}
+.main-footer{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-right{
+    display: flex;
+    gap: 30px;
+}
+a{
+    text-decoration: none;
+    color: #818181;
+    padding-bottom: 10px;
+}
+.socials{
+    border-radius: 50%;
+    height: 30px;
+}
+.footer-links{
+    display: flex;
+    flex-direction: column;  
+}
+input{
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #818181;
+    padding: 5px;
+}
+
+.go-btn{
+    color: white;
+    background: transparent;
+    border: none;
+    margin-left: -25px;
+}
+
